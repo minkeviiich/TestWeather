@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Страница — 1" id="eecr9tEUmHRlh3Sfqo-X">
-    <mxGraphModel dx="-227" dy="337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="-327" dy="280" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -8,13 +8,19 @@
           <mxGeometry x="860" y="30" width="130" height="70" as="geometry" />
         </mxCell>
         <mxCell id="4TAN4mH8XY3hnQxlyrwP-4" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель курса (Course)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. author = автор&lt;br&gt;2. title = название&lt;br&gt;3. start_date = дата и время начала&amp;nbsp;&lt;br&gt;4. price = цена&lt;br&gt;5. created_at = дата публикации&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="860" y="30" width="130" height="100" as="geometry" />
+          <mxGeometry x="860" y="30" width="130" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="4TAN4mH8XY3hnQxlyrwP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="4TAN4mH8XY3hnQxlyrwP-5" target="4TAN4mH8XY3hnQxlyrwP-4">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="4TAN4mH8XY3hnQxlyrwP-5" value="&lt;h1 style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontColor=default;verticalAlign=bottom;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="30" width="130" height="70" as="geometry" />
+          <mxGeometry x="860" y="170" width="130" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-6" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель курса (Course)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. author = автор&lt;br&gt;2. title = название&lt;br&gt;3. start_date = дата и время начала&amp;nbsp;&lt;br&gt;4. price = цена&lt;br&gt;5. created_at = дата публикации&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="1010" y="30" width="130" height="100" as="geometry" />
+        <mxCell id="4TAN4mH8XY3hnQxlyrwP-6" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель урока (Lesson)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. title = название&lt;br&gt;2. link = ссылка&lt;br&gt;3. cours_interaction = ForeignKey&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="860" y="170" width="130" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="4TAN4mH8XY3hnQxlyrwP-11" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 7px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: left; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; white-space: normal; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; display: inline !important; float: none;&quot;&gt;ForeignKey&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="120" width="70" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
