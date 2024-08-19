@@ -1,217 +1,98 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0.0.0 YaBrowser/24.6.0.0 Safari/537.36" version="24.7.7">
   <diagram name="Страница — 1" id="eecr9tEUmHRlh3Sfqo-X">
-    <mxGraphModel dx="2962" dy="975" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
+    <mxGraphModel dx="2364" dy="650" grid="1" gridSize="14" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="1654" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-12" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-14" y="28" width="378" height="336" as="geometry" />
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-144" value="model Course" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-924" y="263" width="392" height="206" as="geometry" />
         </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-1" value="&lt;h1 style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontColor=default;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="56" y="56" width="130" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-4" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель курса (Course)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. author = ForeignKey(CustomUser)&lt;br&gt;2. title = название&lt;br&gt;3. start_date = дата и время начала&amp;nbsp;&lt;br&gt;4. price = цена&lt;br&gt;5. created_at = дата публикации&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="56" y="56" width="130" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.005;exitY=0.804;exitDx=0;exitDy=0;fontColor=#FF0000;exitPerimeter=0;entryX=0.002;entryY=0.159;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4TAN4mH8XY3hnQxlyrwP-6" target="4TAN4mH8XY3hnQxlyrwP-4" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-5" value="&lt;h1 style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontColor=default;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="56" y="224" width="130" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-6" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель урока (Lesson)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. title = название&lt;br&gt;2. link = ссылка&lt;br&gt;3. course = ForeignKey(Course)&amp;nbsp;&amp;nbsp;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="56" y="231" width="130" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-13" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;models/courses&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="147" width="112" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-14" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="434" y="28" width="406" height="336" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-21" value="&lt;font style=&quot;font-size: 17px;&quot;&gt;models/users&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="585" width="112" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-29" value="&lt;h1 style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontColor=default;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="490" y="56" width="154" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-24" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель пользователя (CustomUser)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;1. email = &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;Адрес электронной почты&#39;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. USERNAME_FIELD = &#39;email&#39;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. REQUIRED_FIELDS &lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="490" y="56" width="154" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-31" value="&lt;h1 style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontColor=default;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="490" y="168" width="154" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-36" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" parent="1" source="4TAN4mH8XY3hnQxlyrwP-32" target="4TAN4mH8XY3hnQxlyrwP-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-32" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель подписки (Subscription)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;1. &lt;/span&gt;user = ForeignKey(CustomUser)&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. &lt;/span&gt;course = ForeignKey(Course)&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&#39;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. is_active  &lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="490" y="168" width="154" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4TAN4mH8XY3hnQxlyrwP-32" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="528.5" y="178.5" as="sourcePoint" />
-            <mxPoint x="186.00000000000006" y="101.49999999999997" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="490" y="196" />
-              <mxPoint x="266" y="196" />
-              <mxPoint x="266" y="101" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-43" value="&lt;h1 style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontColor=default;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="658" y="168" width="154" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-45" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="4TAN4mH8XY3hnQxlyrwP-44" target="4TAN4mH8XY3hnQxlyrwP-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-44" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель баланса (Balance)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;1. &lt;/span&gt;user = OneToOneField(CustomUser)&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. balance = &#39;баланс&#39;&lt;br&gt;&lt;/span&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="658" y="168" width="154" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-46" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;OneToOneField&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="742" y="118" width="56" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-47" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;ForeignKey&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="574" y="126" width="56" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-48" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;ForeignKey&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="448" y="174" width="56" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-49" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;ForeignKey&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="42" y="154" width="56" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-50" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=-0.004;entryY=0.311;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="4TAN4mH8XY3hnQxlyrwP-4" target="4TAN4mH8XY3hnQxlyrwP-24" edge="1">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-53" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;ForeignKey&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="294" y="42" width="56" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-55" value="&lt;h1 style=&quot;line-height: 19px; white-space: pre;&quot;&gt;&lt;br&gt;&lt;/h1&gt;" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fillColor=#fff2cc;strokeColor=#d6b656;align=center;fontColor=default;verticalAlign=bottom;" parent="1" vertex="1">
-          <mxGeometry x="220" y="224" width="130" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-57" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Модель группы (Group)&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. title = название группы&lt;br&gt;2. course = ForeignKey(Course)&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="220" y="231" width="130" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-58" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=-0.006;exitY=0.641;exitDx=0;exitDy=0;entryX=0.914;entryY=0.982;entryDx=0;entryDy=0;entryPerimeter=0;exitPerimeter=0;" parent="1" source="4TAN4mH8XY3hnQxlyrwP-57" target="4TAN4mH8XY3hnQxlyrwP-4" edge="1">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="233" y="267" />
-              <mxPoint x="175" y="266" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-59" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;ForeignKey&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="124" y="146" width="56" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="4TAN4mH8XY3hnQxlyrwP-61" value="&lt;span style=&quot;font-size: 7px;&quot;&gt;ManyToMany&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#ff0000;" parent="1" vertex="1">
-          <mxGeometry x="294" y="70" width="56" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
-          <mxGeometry x="280" y="98" width="84" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-2" value="&lt;h1 style=&quot;margin-top: 0px; font-size: 8px;&quot;&gt;Промежут. табл.&lt;/h1&gt;&lt;p style=&quot;font-size: 7px;&quot;&gt;&lt;font style=&quot;font-size: 7px;&quot;&gt;1. user_id&lt;br&gt;2. group_id&lt;br&gt;&lt;br&gt;&lt;/font&gt;&lt;/p&gt;" style="text;html=1;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="280" y="84" width="84" height="56" as="geometry" />
-        </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.004;exitY=0.203;exitDx=0;exitDy=0;entryX=0.017;entryY=0.625;entryDx=0;entryDy=0;exitPerimeter=0;entryPerimeter=0;" edge="1" parent="1" source="4TAN4mH8XY3hnQxlyrwP-57" target="QX9fLDlIeR4wKDuKrccy-2">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="219" y="242" />
-              <mxPoint x="219" y="238" />
-              <mxPoint x="210" y="238" />
-              <mxPoint x="210" y="119" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.001;exitY=0.183;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitPerimeter=0;" edge="1" parent="1" source="4TAN4mH8XY3hnQxlyrwP-24" target="QX9fLDlIeR4wKDuKrccy-2">
-          <mxGeometry relative="1" as="geometry" />
-        </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-144" value="model Course" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-952" y="784" width="392" height="206" as="geometry" />
-        </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-145" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-145" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
           <mxGeometry y="26" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-146" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. author_id:   models.ForeignKey(&#39;users.CustomUser&#39;)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-146" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. author_id:   models.ForeignKey(&#39;users.CustomUser&#39;)&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
           <mxGeometry y="56" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-147" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. title:       Название&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-147" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. title:       Название&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
           <mxGeometry y="86" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-153" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;4. start_date:  Дата и время начала&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-153" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;4. start_date:  Дата и время начала&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
           <mxGeometry y="116" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-155" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;5. price:       Цена&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-155" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;5. price:       Цена&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
           <mxGeometry y="146" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-156" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;6. created_at:  Дата публикации&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-156" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;6. created_at:  Дата публикации&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-144">
           <mxGeometry y="176" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-161" value="model CustomUser" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-476" y="784" width="182" height="116" as="geometry" />
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-161" value="model CustomUser" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-448" y="263" width="182" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-162" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-161">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-162" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-161">
           <mxGeometry y="26" width="182" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-163" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2-10. -//-//-//-&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-161">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-163" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2-10. -//-//-//-&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-161">
           <mxGeometry y="56" width="182" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-168" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;11. email:&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-161">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-168" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;11. email:&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-161">
           <mxGeometry y="86" width="182" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QX9fLDlIeR4wKDuKrccy-169" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=-0.003;entryY=0.118;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX9fLDlIeR4wKDuKrccy-146" target="QX9fLDlIeR4wKDuKrccy-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-170" value="model Lesson" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-952" y="1036" width="392" height="146" as="geometry" />
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-170" value="model Lesson" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-924" y="515" width="392" height="146" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-171" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-171" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
           <mxGeometry y="26" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-172" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. title:      Название урока&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-172" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. title:      Название урока&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
           <mxGeometry y="56" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-173" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. link:       ссылка&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-173" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. link:       ссылка&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
           <mxGeometry y="86" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-174" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;4. course_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(Course)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-174" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;4. course_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(Course)&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-170">
           <mxGeometry y="116" width="392" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QX9fLDlIeR4wKDuKrccy-179" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.068;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QX9fLDlIeR4wKDuKrccy-174" target="QX9fLDlIeR4wKDuKrccy-144">
           <mxGeometry relative="1" as="geometry">
             <Array as="points">
-              <mxPoint x="-1022" y="1167" />
-              <mxPoint x="-1022" y="798" />
+              <mxPoint x="-994" y="646" />
+              <mxPoint x="-994" y="277" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-180" value="model Group" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-952" y="1232" width="392" height="116" as="geometry" />
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-180" value="model Group" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-924" y="711" width="392" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-181" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-180">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-181" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-180">
           <mxGeometry y="26" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-182" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. title:      Название группы&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-180">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-182" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. title:      Название группы&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-180">
           <mxGeometry y="56" width="392" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-184" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. course_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(Course)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-180">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-184" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. course_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(Course)&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-180">
           <mxGeometry y="86" width="392" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QX9fLDlIeR4wKDuKrccy-187" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="QX9fLDlIeR4wKDuKrccy-184">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-952" y="798" as="targetPoint" />
+            <mxPoint x="-924" y="277" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-1078" y="1333" />
+              <mxPoint x="-1050" y="812" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-188" value="Промеж. табл. (ManyToMany)" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-476" y="980" width="224" height="116" as="geometry" />
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-188" value="Промеж. табл. (ManyToMany)" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-448" y="459" width="224" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-189" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;absoluteArcSize=0;portConstraintRotation=0;imageAspect=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-188">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-189" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;absoluteArcSize=0;portConstraintRotation=0;imageAspect=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-188">
           <mxGeometry y="26" width="224" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-191" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. group_id:  &lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-188">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-191" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. group_id:  &lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-188">
           <mxGeometry y="56" width="224" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-192" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. customuser_id:  &lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;portConstraintRotation=0;absoluteArcSize=0;dropTarget=0;imageAspect=1;fillOpacity=100;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-188">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-192" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. customuser_id:  &lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;portConstraintRotation=0;absoluteArcSize=0;dropTarget=0;imageAspect=1;fillOpacity=100;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-188">
           <mxGeometry y="86" width="224" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QX9fLDlIeR4wKDuKrccy-193" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QX9fLDlIeR4wKDuKrccy-188" source="QX9fLDlIeR4wKDuKrccy-191" target="QX9fLDlIeR4wKDuKrccy-191">
@@ -223,37 +104,37 @@
         <mxCell id="QX9fLDlIeR4wKDuKrccy-201" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.121;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX9fLDlIeR4wKDuKrccy-191" target="QX9fLDlIeR4wKDuKrccy-180">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-202" value="model Subscription" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-616" y="588" width="322" height="116" as="geometry" />
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-202" value="model Subscription" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-588" y="67" width="322" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-203" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-202">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-203" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-202">
           <mxGeometry y="26" width="322" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-204" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. course_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(Course)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;      &lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-202">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-204" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. course_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(Course)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;      &lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-202">
           <mxGeometry y="56" width="322" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-205" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. user_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(CustomUser)&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-202">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-205" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. user_id:  &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.ForeignKey(CustomUser)&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-202">
           <mxGeometry y="86" width="322" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QX9fLDlIeR4wKDuKrccy-208" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.002;entryY=0.119;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX9fLDlIeR4wKDuKrccy-205" target="QX9fLDlIeR4wKDuKrccy-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-209" value="model Balance" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;" vertex="1" parent="1">
-          <mxGeometry x="-476" y="1148" width="294" height="116" as="geometry" />
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-209" value="model Balance" style="swimlane;fontStyle=1;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="-448" y="627" width="294" height="116" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-210" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;absoluteArcSize=0;portConstraintRotation=0;imageAspect=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-209">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-210" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;1. PK&lt;/font&gt;&lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;absoluteArcSize=0;portConstraintRotation=0;imageAspect=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-209">
           <mxGeometry y="26" width="294" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-211" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. balance:  &lt;/span&gt;" style="text;strokeColor=none;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-209">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-211" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;2. balance:  &lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-209">
           <mxGeometry y="56" width="294" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-212" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. user_id: &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.OneToOne(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;CustomUser&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;  &lt;/span&gt;" style="text;strokeColor=default;fillColor=none;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;portConstraintRotation=0;absoluteArcSize=0;dropTarget=0;imageAspect=1;fillOpacity=100;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-209">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-212" value="&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;3. user_id: &lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;models.OneToOne(&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;CustomUser&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;)&lt;/span&gt;&lt;span style=&quot;font-family: &amp;quot;Droid Sans Mono&amp;quot;, &amp;quot;monospace&amp;quot;, monospace; white-space: pre;&quot;&gt;  &lt;/span&gt;" style="text;strokeColor=#6c8ebf;fillColor=#dae8fc;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;fontSize=12;whiteSpace=wrap;html=1;portConstraintRotation=0;absoluteArcSize=0;dropTarget=0;imageAspect=1;fillOpacity=100;" vertex="1" parent="QX9fLDlIeR4wKDuKrccy-209">
           <mxGeometry y="86" width="294" height="30" as="geometry" />
         </mxCell>
         <mxCell id="QX9fLDlIeR4wKDuKrccy-213" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="QX9fLDlIeR4wKDuKrccy-209" source="QX9fLDlIeR4wKDuKrccy-211" target="QX9fLDlIeR4wKDuKrccy-211">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="QX9fLDlIeR4wKDuKrccy-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.999;entryY=0.121;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX9fLDlIeR4wKDuKrccy-212" target="QX9fLDlIeR4wKDuKrccy-161">
+        <mxCell id="QX9fLDlIeR4wKDuKrccy-222" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1.002;entryY=0.12;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="QX9fLDlIeR4wKDuKrccy-212" target="QX9fLDlIeR4wKDuKrccy-161">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
